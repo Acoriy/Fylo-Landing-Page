@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+@layer {
+    .container{
+        @apply px-[60px] mx-auto;
+    }
+    .centre-element {
+        @apply flex justify-center items-center;
+    }
+    .btn{
+        @apply bg-[#42b0d1] hover:bg-[#8cdae4] transition-all duration-200;
+    }
+    .paragraph{
+        @apply font-normal text-sm tracking-[0.8px]
+    }
+    .hover-icons-socialmedia{
+        @apply group-hover:text-primary transition-colors duration-200
+    }
+}
+
+body{
+    background-color: #181e2a;
+    font-family: "Roboto", sans-serif;
+}
