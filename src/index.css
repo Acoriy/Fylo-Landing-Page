@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities"; */
+
 
 @layer {
     .container{
@@ -27,4 +25,16 @@
 body{
     background-color: #181e2a;
     font-family: "Roboto", sans-serif;
+    
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #0c1524;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#42b0d1 , #8cdae4);
+    border-radius: 10px;
 }

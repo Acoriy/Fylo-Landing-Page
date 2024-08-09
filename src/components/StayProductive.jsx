@@ -1,6 +1,7 @@
+import iconArrow from '../assets/images/icon-arrow.svg';
 const StayProductive = () => {
   return (
-    <section className="pb-[150px]">
+    <section className="pb-[150px] lg:pt-32 pt-5">
             <div className="container grid grid-cols-1 md:grid-cols-2 gap-[30px] place-items-center">
 
                 {/* Images  */}
@@ -27,7 +28,7 @@ const StayProductive = () => {
 
                     <a href="/" className="text-primary hover:text-[#42b0d1] transition-colors duration-200 border-b-2 border-primary border-solid pb-[5px] flex items-center gap-[15px] w-fit">
                         See how Fyloworks 
-                        <img src="/src/assets/images/icon-arrow.svg" alt="icon-arrow" className="animate-[moveRight_1s_ease-in-out_infinite]" />
+                        <img src={iconArrow} alt="icon-arrow" className="animate-[moveRight_1s_ease-in-out_infinite]" />
                     </a>
                 </div>
         

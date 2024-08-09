@@ -1,8 +1,8 @@
-import React from 'react'
+import bgCurveDesktop from '../assets/images/bg-curvy-desktop.svg';
 
 const Landing = () => {
   return (
-    <section className='bg-[#1c2230]'>
+    <section className='bg-[#1c2230] lg:pt-0 pt-24'>
        <div className="container">
           <div className='centre-element flex-col pt-[200px]'>
             <div className='w-[750px] max-w-full' >
@@ -22,7 +22,7 @@ const Landing = () => {
           </div>
        </div>
        <div className='w-full h-[200px]'>
-          <img src="/src/assets/images/bg-curvy-desktop.svg" alt="svg-image" className='w-full' />
+          <img src={bgCurveDesktop} alt="svg-image" className='w-full' />
        </div>
     </section>
   )
