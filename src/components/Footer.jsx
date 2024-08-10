@@ -1,15 +1,19 @@
 import { useState } from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-
+// import icons :
+import phone from '../assets/images/icon-phone.svg';
+import email from '../assets/images/icon-email.svg';
+import location from '../assets/images/icon-location.svg';
+import logo from '../assets/images/logo.svg';
 const Footer = () => {
   // eslint-disable-next-line no-unused-vars
   const [contact , setContact] = useState([
     {
-      icon: "icon-phone.svg",
+      icon: phone,
       text: "+212 689995840",
     },
     {
-      icon: "icon-email.svg",
+      icon: email,
       text: "sofyane.acoriy@gmail.com",
     },
   ]);
@@ -34,7 +38,7 @@ const Footer = () => {
       <div className="container text-white">
         <a href="/" className="">
           <img
-            src="/src/assets/images/logo.svg"
+            src={logo}
             alt="logo-image"
             className="w-[175px] h-[66px] object-contain"
           />
@@ -44,7 +48,7 @@ const Footer = () => {
           <div className="flex items-start gap-[15px] w-[340px] max-w-full ">
             <a href="/">
               <img
-                src="/src/assets/images/icon-location.svg"
+                src={location}
                 alt="location-icon"
                 className="w-[58xp] h-[58px] object-contain"
               />
@@ -62,7 +66,7 @@ const Footer = () => {
                 key={item.text}
                 className="flex items-center mb-[15px] last-of-type:mb-0 gap-[15px]"
               >
-                <img src={`/src/assets/images/${item.icon}`} alt="icon" />
+                <img src={item.icon} alt="icon" />
                 <p>{item.text}</p>
               </div>
             ))}

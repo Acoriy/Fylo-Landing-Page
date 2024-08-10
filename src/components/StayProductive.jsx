@@ -1,4 +1,5 @@
 import iconArrow from '../assets/images/icon-arrow.svg';
+import stayProductiveImg from '../assets/images/stay-productive.png';
 const StayProductive = () => {
   return (
     <section className="pb-[150px] lg:pt-32 pt-5">
@@ -6,7 +7,7 @@ const StayProductive = () => {
 
                 {/* Images  */}
                 <div>
-                    <img src="/src/assets/images/stay-productive.png" alt="stay-productive" />
+                    <img src={stayProductiveImg} alt="stay-productive" />
                 </div>
                 {/* texte */}
                 <div className="text-white ">

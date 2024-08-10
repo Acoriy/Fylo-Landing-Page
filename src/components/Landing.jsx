@@ -1,4 +1,5 @@
 import bgCurveDesktop from '../assets/images/bg-curvy-desktop.svg';
+import landingIntro from '../assets/images/landing-intro.png';
 
 const Landing = () => {
   return (
@@ -6,7 +7,7 @@ const Landing = () => {
        <div className="container">
           <div className='centre-element flex-col pt-[200px]'>
             <div className='w-[750px] max-w-full' >
-               <img src="/src/assets/images/landing-intro.png" alt="Langding-Image" className='w-full h-fit'/>
+               <img src={landingIntro} alt="Langding-Image" className='w-full h-fit'/>
             </div>
             <div className='text-white text-center '>
                 <h1 className='text-[30px] md:text-[40px] mb-[15px] font-semibold'>All yours files in one secure location, <br />
