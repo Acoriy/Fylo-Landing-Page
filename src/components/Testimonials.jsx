@@ -5,6 +5,7 @@ import TestimonialBox from "./TestimonialBox"
 import portfulio1 from '../assets/images/profile-1.jpg';
 import portfulio2 from '../assets/images/profile-2.jpg';
 import portfulio3 from '../assets/images/profile-3.jpg';
+import quotsIcon from '../assets/images/bg-quotes.png';
 
 const Testimonials = () => {
     const [testimonialData , setTestimonialData] = useState([
@@ -37,7 +38,7 @@ const Testimonials = () => {
     <section className='mb-[350px] lg:pt-32 pt-5'>
         <div className="container relative ">
             <div className="absolute left-[53px] top-[-36px]">
-                <img src="/src/assets/images/bg-quotes.png" alt="quotes-image" />
+                <img src={quotsIcon} alt="quotes-image" />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] relative z-10">
                 {testimonialData.map((teste)=>(
