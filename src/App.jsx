@@ -10,9 +10,7 @@ import Testimonials from "./components/Testimonials";
 function App() {
   return (
     <>
-      {/* <HeadrePro /> */}
       <Headre/>
-      {/* <Home/> */}
       <main>
         <div id="home">
           <Landing />

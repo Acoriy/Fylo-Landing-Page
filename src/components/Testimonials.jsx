@@ -35,7 +35,7 @@ const Testimonials = () => {
         },
     ])
   return (
-    <section className='mb-[350px] lg:pt-32 pt-5'>
+    <section className='min-h-screen flex items-center'>
         <div className="container relative ">
             <div className="absolute left-[53px] top-[-36px]">
                 <img src={quotsIcon} alt="quotes-image" />

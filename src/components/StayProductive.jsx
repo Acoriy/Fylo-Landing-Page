@@ -2,7 +2,7 @@ import iconArrow from '../assets/images/icon-arrow.svg';
 import stayProductiveImg from '../assets/images/stay-productive.png';
 const StayProductive = () => {
   return (
-    <section className="pb-[150px] lg:pt-32 pt-5">
+    <section className="min-h-screen flex items-center pt-20">
             <div className="container grid grid-cols-1 md:grid-cols-2 gap-[30px] place-items-center">
 
                 {/* Images  */}

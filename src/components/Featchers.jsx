@@ -31,9 +31,9 @@ const Featchers = () => {
     }
   ])
   return (
-    <section className=" pb-[150px] lg:pt-32 pt-5">
+    <section className="min-h-screen flex items-center pt-24">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[100px] w-[865px] mx-auto max-w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-[865px] mx-auto max-w-full">
             {items.map((item)=>(
               <FeatchersItems key={item.title} icon={item.img} title = {item.title} desc = {item.desc} />
             ))}
