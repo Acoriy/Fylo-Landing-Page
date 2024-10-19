@@ -3,7 +3,7 @@ import landingIntro from '../assets/images/landing-intro.png';
 
 const Landing = () => {
   return (
-    <section className='bg-[#1c2230] lg:pt-0 pt-24'>
+    <section className='bg-[#1c2230] '>
        <div className="container">
           <div className='centre-element flex-col pt-[200px]'>
             <div className='w-[750px] max-w-full' >

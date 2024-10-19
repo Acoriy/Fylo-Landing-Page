@@ -17,7 +17,7 @@ const GetStarted = () => {
             inputRef.current.style.border = "none"
         }
     }
-  return <section className="lg:pt-[300px] pt-5">
+  return <section className="pt-[300px] ">
       <div className="container relative">
            <div className="bg-[#1c2230] text-white text-center p-[30px] absolute left-[50%] translate-x-[-50%] top-[-150px] rounded-[5px] centre-element flex-col w-[856px] max-w-full min-h-[276px]">
                 <h3 className='text-[25px] md:text-[35px] font-semibold mb-[15px]'>Get early access today</h3>
