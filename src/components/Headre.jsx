@@ -32,8 +32,8 @@ const Headre = () => {
   }, []);
 
   return (
-    <header ref={headerRef} className="fixed top-0 left-0 z-20 w-full">
-      <div  className="container  flex flex-row justify-between h-fit">
+    <header ref={headerRef} className="fixed top-0 left-0 z-20 w-full pt-[60px]">
+      <div  className="container  flex flex-row justify-between h-fit ">
         <Link to="about">
           <img src={Logo} alt="Logo" className="text-white cursor-pointer" />
         </Link>
