@@ -23,7 +23,7 @@ const Landing = () => {
           </div>
        </div>
        <div className='w-full h-[200px]'>
-          <img src={bgCurveDesktop} alt="svg-image" className='w-full' />
+          <img src={bgCurveDesktop} alt="svg-image" className='w-full h-full' />
        </div>
     </section>
   )
